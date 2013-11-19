@@ -4,4 +4,6 @@
 
 #symlinking with modman
 app/design/frontend/default/respond/ app/design/frontend/default/respond/
+app/design/frontend/default/respond-enterprise/ app/design/frontend/default/respond-enterprise/
 skin/frontend/default/respond/ skin/frontend/default/respond/
+skin/frontend/default/respond-enterprise/ skin/frontend/default/respond-enterprise/
