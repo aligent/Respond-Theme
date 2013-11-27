@@ -124,7 +124,7 @@ h5 { font-size: 0.83em; margin: 1.67em 0; }
 h6 { font-size: 0.75em; margin: 2.33em 0; }
 
 */
- 
+
 /*
  * Addresses styling not present in IE7/8/9, S5, Chrome
  */
@@ -467,7 +467,7 @@ fieldset { margin: 9px 0; padding: 9px 0; border:0; }
 textarea { width:96%; height:108px; background: #F7F7F7; border:none; padding: 9px 10px; border: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ddd; }
 select { padding: 0;}
 .input-box { clear: both; }
-.input-box input.input-text { background: #F7F7F7; border: 1px solid #eee; height: 34px; padding: 0 9px; width: 92%; }
+.input-box input.input-text { background: #F7F7F7; border: 1px solid #ccc; height: 34px; padding: 0 9px; width: 92%; }
 .input-box select {  background: #F7F7F7; border:  none; border: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ddd; padding:8px 4px 7px; width: 96%; }
 .input-box select.multiselect { min-height:90px; background:#F7F7F7; border:none; border: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ddd; padding:5px; }
 .input-text.qty { background:#F7F7F7; border:none; padding:9px 10px 10px; width: 20px; border: 1px solid #444; text-align: center; }
@@ -491,7 +491,7 @@ select { padding: 0;}
 
 .form-list li.control label { margin: 0 10px; }
 
-#checkout-step-login .form-list li , #checkout-step-billing .form-list li, #checkout-step-shipping .form-list li, #checkout-opc-payment .form-list li, 
+#checkout-step-login .form-list li , #checkout-step-billing .form-list li, #checkout-step-shipping .form-list li, #checkout-opc-payment .form-list li,
 .customer-account-login .form-list li , .shipping .form-list li, .checkout-multishipping-login .form-list li, .paypal-review-order .form-list li {  width: 100%; }
 
 label.required em { color: red; }
@@ -502,18 +502,18 @@ label.required em { color: red; }
 /********* Buttons Styling ***********************/
 
 .button {
-	background-color:#101010;
-	border:1px solid #040404;
-	display:inline-block;
-	color:#ccc;
-	font-family:arial;
-	font-size:13px;
-	font-weight:normal;
-	padding:8px 10px 9px;
-	text-decoration:none;
+    background-color:#101010;
+    border:1px solid #040404;
+    display:inline-block;
+    color:#ccc;
+    font-family:arial;
+    font-size:13px;
+    font-weight:normal;
+    padding:8px 10px 9px;
+    text-decoration:none;
 }
 .button:hover {
-	background-color:#323232;
+    background-color:#323232;
 }
 
 .buttons-set { padding: 9px 0;}
@@ -557,8 +557,6 @@ p.required { font-size:11px; float: left; color:#EB340A; }
 
 /* Page Heading */
 .page-title { width:100%; overflow:hidden; margin:0 0 18px; }
-.page-title h1,
-.page-title .link-rss { float:right; }
 .title-buttons { text-align:right; }
 .title-buttons h1,
 .title-buttons h2,
@@ -659,7 +657,6 @@ tr.summary-details-excluded { font-style:italic; }
 .links li.first { padding-left:0 !important; }
 .links li.last { background:none !important; padding-right:0 !important; }
 
-.link-cart { font-weight:bold; color:#d62502; }
 .link-wishlist { color:#444; }
 .link-rss { background:url(../images/i_rss.gif) 0 1px no-repeat; padding-left:18px; line-height:14px; white-space:nowrap; }
 .btn-remove { display:block; width:12px; height:12px; font-size:0; line-height:0; background:url(../images/btn_remove.gif) 0 0 no-repeat; text-indent:-999em; overflow:hidden; margin: 0 2px; }
@@ -1165,7 +1162,7 @@ ul.product-tabs{ border-bottom: 1px solid #DDDDDD;  display: block; margin: 0 0 
 .product-tabs li.first a {  border-top-left-radius: 2px; border-width: 1px 1px 0;}
 .product-tabs li.last a {  border-top-right-radius: 2px; }
 .product-tabs a { background: #F5F5F5; border-color: #DDDDDD; border-style: solid; border-width: 1px 1px 0 0; display: block; font-size: 13px; height: 35px;
-line-height: 36px; margin: 0; padding: 0 20px; text-decoration: none; width: auto;}
+    line-height: 36px; margin: 0; padding: 0 20px; text-decoration: none; width: auto;}
 .product-tabs a:hover { background-color:#ddd; text-decoration:none; color:#444; }
 .product-tabs li.active a,
 .product-tabs li.active a:hover { background: none repeat scroll 0 0 #FFFFFF; border-left-width: 1px; border-top-left-radius: 2px; border-top-right-radius: 2px; color: #111111; height: 36px; margin: 0 0 0 -1px; padding-top: 4px; position: relative; top: -4px;}
@@ -1559,8 +1556,8 @@ ul.crosssell-products-list { margin: 10px auto; }
 
 
 /* Account Login/Create Pages ============================================================ */
-.account-login .content { min-height:200px; padding:0 10px; }
-.account-login .content h2 { font-size: 13px; line-height: 1.385; }
+.account-login .content { min-height:200px; }
+.account-login .content h2 { font-size: 13px; }
 
 /* Account Login/Create Pages ============================================================ */
 
@@ -1820,7 +1817,7 @@ ul.crosssell-products-list { margin: 10px auto; }
  */
 
 /* FlexSlider Necessary Styles
-*********************************/ 
+*********************************/
 .flexslider {width: 100%; margin: 0; padding: 0 0 3px;}
 .flexslider .slides li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {max-width: 100%; display: block;}
@@ -1910,8 +1907,8 @@ ul.crosssell-products-list { margin: 10px auto; }
 .page-print .print-head:after,
 .advanced-search-summary:after,
 .gift-messages-form .item:after,
-.send-friend .form-list li p:after, 
-#checkout-step-login .col2-set .col-1:after, 
+.send-friend .form-list li p:after,
+#checkout-step-login .col2-set .col-1:after,
 #checkout-step-login .col2-set .col-2:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }
 /* ======================================================================================= */
 
