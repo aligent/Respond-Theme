@@ -464,7 +464,7 @@ px      40    100    160    220    280    340    400    460    520    580   640 
 form          { display:inline; }
 legend        { display:none; }
 fieldset { margin: 9px 0; padding: 9px 0; border:0; }
-textarea { width:96%; height:108px; background: #F7F7F7; border:none; padding: 9px 10px; border: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ddd; }
+textarea { width:96%; height:108px; background: #F7F7F7; border:none; padding: 9px 10px; border: none; border: 1px solid #ccc; }
 select { padding: 0;}
 .input-box { clear: both; }
 .input-box input.input-text { background: #F7F7F7; border: 1px solid #ccc; height: 34px; padding: 0 9px; width: 92%; }
