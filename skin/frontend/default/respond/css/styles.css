@@ -467,15 +467,13 @@ fieldset { margin: 9px 0; padding: 9px 0; border:0; }
 textarea { width:96%; height:108px; background: #F7F7F7; border:none; padding: 9px 10px; border: none; border: 1px solid #ccc; }
 select { padding: 0;}
 .input-box { clear: both; }
-.input-box input.input-text { background: #F7F7F7; border: 1px solid #ccc; height: 34px; padding: 0 9px; width: 92%; }
-.input-box select {  background: #F7F7F7; border:  none; border: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ddd; padding:8px 4px 7px; width: 96%; }
+.input-text { background: #F7F7F7; border: 1px solid #ccc; padding: 11px 9px 9px; box-sizing: border-box; -moz-box-sizing: border-box; width: 100%; }
+.input-box select {  background: #F7F7F7; border: 1px solid #ccc; padding:8px 4px 7px; width: 100%; }
 .input-box select.multiselect { min-height:90px; background:#F7F7F7; border:none; border: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ddd; padding:5px; }
 .input-text.qty { background:#F7F7F7; border:none; padding:9px 10px 10px; width: 20px; border: 1px solid #444; text-align: center; }
 .form-alt li { margin: 9px 0; }
-.form-list { width:90%; }
 .form-list li { margin: 9px 0; }
 .form-list li { display: inline-block; }
-.form-list li, .form-list li .field { float:left; width:45%; margin-right:5%; }
 .form-list li.fields, .form-list li.wide { display: inline-block; width:100%; }
 .form-list li.wide .input-box input.input-text { width:90%; }
 
@@ -1283,7 +1281,6 @@ ul.product-tabs{ border-bottom: 1px solid #DDDDDD;  display: block; margin: 0 0 
 .cart-table .cart-row-total {float: right; padding-right:18px}
 .cart-table td {vertical-align: middle}
 .cart-table td h2 {clear:none; float:left; padding-top: 10px}
-.cart-table td h2 a {font-weight: bold; color: #006fb7}
 .cart-table .product-options dd {border: none;}
 
 /* Shopping Cart Collateral boxes */
@@ -1316,7 +1313,6 @@ ul.crosssell-products-list { margin: 10px auto; }
 
 .cart .discount { border-bottom:1px solid #c0d2af ; margin-right: 24px; }
 .cart .discount label { font-weight:bold; color:#555; }
-.cart .discount input.input-text { width: 95%; }
 
 .cart .shipping p { margin:9px 0; }
 .cart .shipping .sp-methods { margin:10px 0 0; padding:6px 0 0; border-top:1px solid #c0d2af; }
@@ -1848,67 +1844,5 @@ ul.crosssell-products-list { margin: 10px auto; }
 .flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
 
 
-/* Clears ================================================================================ */
-.clearer:after,
-.header-container:after,
-.header-container .top-container:after,
-.header:after,
-.top-bar:after,
-.quick-access:after,
-.form-search:after,
-#nav:after,
-.main:after,
-.footer:after,
-.footer .form-subscribe:after,
-.footer-container .bottom-container:after,
-.col-main:after,
-.col2-set:after,
-.col3-set:after,
-.col4-set:after,
-.search-autocomplete li:after,
-.block .block-content:after,
-.block .actions:after,
-.block li.item:after,
-.block-poll li:after,
-.block-layered-nav .currently li:after,
-.page-title:after,
-.products-grid:after,
-.products-list li.item:after,
-.box-account .box-head:after,
-.dashboard .box .box-title:after,
-.order-info ul:after,
-.box-reviews li.item:after,
-.box-tags li.item:after,
-.pager:after,
-.sorter:after,
-.ratings:after,
-.add-to-box:after,
-.add-to-cart:after,
-.product-essential:after,
-.product-collateral:after,
-.product-tabs:after,
-.product-view .product-img-box .more-views ul:after,
-.product-view .box-tags .form-add:after,
-.product-view .product-shop .short-description:after,
-.product-view .box-description:after,
-.product-options .options-list li:after,
-.product-options-bottom:after,
-.product-review:after,
-.cart:after,
-.cart-collaterals:after,
-.cart .crosssell li.item:after,
-.opc .step-title:after,
-.checkout-progress:after,
-.multiple-checkout .place-order:after,
-.group-select li:after,
-.form-list li:after,
-.form-list .field:after,
-.buttons-set:after,
-.page-print .print-head:after,
-.advanced-search-summary:after,
-.gift-messages-form .item:after,
-.send-friend .form-list li p:after,
-#checkout-step-login .col2-set .col-1:after,
-#checkout-step-login .col2-set .col-2:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }
 /* ======================================================================================= */
 
