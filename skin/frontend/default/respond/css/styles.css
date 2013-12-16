@@ -962,8 +962,6 @@ ul.products-grid { margin: 18px -20px; font-size: 0; }
 .availability-only-details tr.odd td.last { color:#396f00; font-weight:bold; }
 .availability-only-details tr.last td { border-bottom:none; }
 
-.product-view .product-shop .availability span { font-weight:normal; }
-
 /* Email to a Friend */
 .email-friend { margin:0; }
 
@@ -1067,8 +1065,6 @@ f/********** Product Prices > */
 .add-to-cart .paypal-logo .paypal-or { clear:both; display:block; margin:5px 60px 5px 0; }
 
 /* Add to Links + Add to Cart */
-.add-to-box { margin:10px 0; }
-.add-to-box .add-to-cart { margin:10px 0; }
 .add-to-box .add-to-cart .paypal-logo { float:right; }
 .add-to-box .or { display:none !important; }
 .add-to-box .add-to-links li .separator { display:none !important; }
