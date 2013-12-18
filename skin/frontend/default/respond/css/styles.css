@@ -531,23 +531,6 @@ p.required { font-size:11px; float: left; color:#EB340A; }
 .v-fix { float:left; }
 .v-fix .validation-advice { display:block; width:12em; margin-right:-12em; position:relative; }
 
-/* Global Messages  */
-.success { color:#3d6611; font-weight:bold; }
-.error { color:#df280a; font-weight:bold; }
-.notice { color:#e26703; }
-
-.messages,
-.messages ul { list-style:none !important; margin:0 !important; padding:0 !important; }
-.messages { width:100%; overflow:hidden; }
-.error-msg,
-.success-msg,
-.note-msg,
-.notice-msg { border-style:solid !important; border-width:1px !important; font-size:11px !important; font-weight:bold !important; line-height: 1.63636363636; padding: 8px 10px; margin-bottom: 18px; }
-.error-msg { border-color:#f16048; background-color:#faebe7; color:#df280a;  }
-.success-msg { border-color:#446423; background-color:#eff5ea; color:#3d6611;  }
-.note-msg,
-.notice-msg { border-color:#fcd344; background-color:#fafaec; color:#3d6611; }
-
 /* BreadCrumbs */
 .breadcrumbs a { color:#7f7f7f; }
 .breadcrumbs li { display:inline; }
@@ -573,7 +556,6 @@ p.required { font-size:11px; float: left; color:#EB340A; }
 .pager .pages ol { display:inline; }
 .pager .pages li {  border: 1px solid #CCCCCC;  float: left; margin: 0 2px; padding: 8px 15px; }
 .pager .pages .current { background: #ccc; }
-div.pages>strong { position: absolute; overflow: hidden; clip: rect(0 0 0 0); height: 1px; width: 1px; margin: -1px; padding: 0; border: 0;  }
 
 /* Sorter */
 .sorter { border-bottom: 1px dotted #CCCCCC; font-size: 11px; line-height: 1.63636; padding: 9px 8px 8px;}
@@ -903,8 +885,6 @@ ul.products-grid { margin: 18px -20px; font-size: 0; }
 .products-grid .product-image img:hover { opacity: 0.9; }
 .products-grid.first .product-image { border-top:0; }
 .products-grid li.last .product-image { border-right:0; }
-.products-grid .product-name { font-size:12px; margin: 0; }
-.products-grid .product-name a { color:#444; text-transform: uppercase; letter-spacing: 0.1em; }
 .products-grid .product-name a:hover { text-decoration:none; }
 .products-grid .price-box { margin:9px 0; }
 .products-grid .availability { line-height:21px; }
@@ -1545,13 +1525,6 @@ ul.crosssell-products-list { margin: 10px auto; }
 /* Step 3 */
 .checkout-multishipping-billing .multiple-checkout { position:relative; }
 /* ======================================================================================= */
-
-
-/* Account Login/Create Pages ============================================================ */
-.account-login .content { min-height:200px; }
-.account-login .content h2 { font-size: 13px; }
-
-/* Account Login/Create Pages ============================================================ */
 
 
 /* Remember Me Popup ===================================================================== */
