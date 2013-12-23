@@ -102,6 +102,7 @@
             </ul>
         <?php else: ?>
             <input type="hidden" name="checkout_method" id="login:register" value="register" checked="checked" />
+            <button id="onepage-guest-register-button" type="button" class="button" onclick="checkout.setMethod();"><span><span><?php echo $this->__('Register') ?></span></span></button>
         <?php endif; ?>
     </div>
 </div>
